@@ -22,6 +22,7 @@
 		<link href="{{asset('megakit/vendor/magnific-popup/magnific-popup.css')}}" rel="stylesheet" type="text/css" />
 		<link href="{{asset('megakit/vendor/swiper/swiper.min.css')}}" rel="stylesheet" type="text/css" />
 
+
 		<!-- Theme Styles -->
 		<link href="{{asset('megakit/css/style.css')}}" rel="stylesheet" type="text/css" />
 		<link href="{{asset('megakit/css/global/global.css')}}" rel="stylesheet" type="text/css" />
@@ -39,6 +40,18 @@
 				max-height: 600px;
 				padding-top: 1rem;
 				background-color: white;
+			}
+			.icon{
+				position: fixed;
+				right: 7.825rem;
+				bottom: 3.275rem;
+				display: block;
+				width: 1.875rem;
+				height: 3rem;
+    z-index: 9;
+			}
+			.icon i {
+				border-block-color: #13b1cd;
 			}
 		</style>
 	</head>

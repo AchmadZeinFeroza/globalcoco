@@ -38,26 +38,8 @@
                     </div>
                     @endforeach
                 </div>
-                <form class="center-block g-width-500--sm g-width-550--md wow bounceInUp" data-wow-duration="3s">
-                    <div class="g-margin-b-30--xs">
-                        <input type="text" class="form-control s-form-v3__input" placeholder="* Name">
-                    </div>
-                    <div class="row g-row-col-5 g-margin-b-50--xs">
-                        <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md">
-                            <input type="email" class="form-control s-form-v3__input" placeholder="* Email">
-                        </div>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control s-form-v3__input" placeholder="* Phone">
-                        </div>
-                    </div>
-                    <div class="g-margin-b-80--xs">
-                        <textarea class="form-control s-form-v3__input" rows="5" placeholder="* Your message"></textarea>
-                    </div>
-                    <div class="g-text-center--xs">
-                        <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-70--xs g-margin-b-20--xs">Submit</button>
-                    </div>
-                </form>
             </div>
+            <br><br><br><br><br><br><br>
             <img class="s-mockup-v2  wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s" src="{{asset('megakit/img/mockups/pencil-01.png')}}" alt="Mockup Image">
         </div>
 

@@ -45,5 +45,34 @@
             @php $j++; @endphp
 		</div>
         @endforeach
+		<!-- Speakers -->
+		<div class="g-padding-y-80--xs g-padding-y-125--sm">
+			<div class="row g-overflow--hidden">
+				<h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs text-center g-padding-y-125--sm">we provide Indonesian herbs and spices</h2>
+				@foreach ($rempah as $item)
+
+				<div class="col-xs-6 g-full-width--xs g-margin-b-30--xs g-margin-b-0--lg wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
+					<!-- Speaker -->
+					<div class="center-block g-box-shadow__dark-lightest-v1 g-width-100-percent--xs g-width-600--lg">
+						<img class="img-responsive g-width-100-percent--xs" src="{{asset($item->image)}}" alt="Image" />
+					</div>
+					<!-- End Speaker -->
+				</div>
+									
+				@endforeach
+			</div>
+		</div>
+		<!-- End Speakers -->
+
+		{{-- <div class="row">
+				<div class="container">
+					@foreach ($rempah as $item)
+					<div class="card bg-dark text-white col-md-">
+						<img class="card-img" src="{{asset($item->image)}}" alt="Card image">
+					</div>
+					@endforeach
+				</div>
+		</div> --}}
+
 		<!-- End Mockup -->
 @endsection

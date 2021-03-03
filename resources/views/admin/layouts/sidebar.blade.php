@@ -47,21 +47,27 @@
                 </a>
             </li>
             <li>
+                <a href="{{url('/galleryadmin')}}">
+                    <i class="metismenu-icon pe-7s-camera"></i>
+                    Gallery
+                </a>
+            </li>
+            <li>
                 <a href="{{url('/productadmin')}}">
                     <i class="metismenu-icon pe-7s-box2"></i>
                     Product
                 </a>
             </li>
             <li>
-                <a href="{{url('/teamadmin')}}">
-                    <i class="metismenu-icon pe-7s-users"></i>
-                    Team
-                </a>
-            </li>
-            <li>
                 <a href="{{url('/clientsadmin')}}">
                     <i class="metismenu-icon pe-7s-id"></i>
                     Clients
+                </a>
+            </li>
+            <li>
+                <a href="{{url('/rempahadmin')}}">
+                    <i class="metismenu-icon pe-7s-box2"></i>
+                    Rempah
                 </a>
             </li>
             <li>

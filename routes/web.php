@@ -48,10 +48,13 @@ Route::match(['post' , 'patch'],'/about/update/{id}', 'AboutController@update');
 
 //Product
 Route::get('/productadmin', 'ProductController@index');
+Route::get('/rempahadmin', 'ProductController@rempah');
 Route::get('/productadmin/create', 'ProductController@create');
+Route::post('/rempahadmin/upload', 'ProductController@createrempah');
 Route::post('/productadmin/store', 'ProductController@store');
 Route::match(['post' , 'patch'],'/product/update/{id}', 'ProductController@update');
 Route::delete('/product/delete/{id}', 'ProductController@destroy');
+Route::delete('/rempahadmin/delete/{id}', 'ProductController@deleterempah');
 
 //Team
 Route::get('/teamadmin', 'TeamController@index');
@@ -70,6 +73,11 @@ Route::get('/clientsadmin/create' , 'WebsiteController@create');
 Route::post('/clientsadmin/store' , 'WebsiteController@store'); 
 Route::match(['post' , 'patch'],'/clients/update/{clients}', 'WebsiteController@updateclients');
 
+//Gallery
+Route::get('/gallery', 'WebsiteController@gallery');
+Route::get('/galleryadmin', 'ThumbnailController@galleryadmin');
+Route::post('/galleryadmin/creategallery    ', 'ProductController@createGallery');
+Route::delete('/galleryadmin/delete/{id}', 'ProductController@delete');
 //Logout
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
 });

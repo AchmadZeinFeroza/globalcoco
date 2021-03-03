@@ -9,11 +9,9 @@
 								<a class="s-header__nav-menu-link s-header__nav-menu-link-divider " href="{{url('/')}}">Home</a>
 							</li>
 							<li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="{{url('/about')}}">About Us</a></li>
+							<li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="{{url('/gallery')}}">Gallery</a></li>
 							<li class="s-header__nav-menu-item">
 								<a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="{{url('/product')}}">Product</a>
-							</li>
-							<li class="s-header__nav-menu-item">
-								<a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="{{url('/team')}}">Team</a>
 							</li>
 							<li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="{{url('/contact')}}">Contact</a></li>
 						</ul>

@@ -12,6 +12,8 @@
     <meta name="description" content="This is an example dashboard created using build-in elements and components.">
     <meta name="msapplication-tap-highlight" content="no">
     <link href="{{asset('admin/main.css')}}" rel="stylesheet">
+    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/dropzone.css"> --}}
+    <link rel="stylesheet" href="{{asset('admin/assets/scripts/dropzone.min.css')}}">
 </head>
 
 <body>

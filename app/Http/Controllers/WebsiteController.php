@@ -8,9 +8,11 @@ use App\About;
 use App\Service;
 use App\Benefit;
 use App\Product;
+use App\Rempah;
 use App\Team;
 use App\Contact;
 use App\Clients;
+use App\Gallery;
 use Illuminate\Http\Request;
 
 class WebsiteController extends Controller
@@ -36,16 +38,17 @@ class WebsiteController extends Controller
 
     public function product(){
         $data = Product::get();
+        $rempah = Rempah::get();
         $contact = Contact::get();
         $clients = Clients::get();
-        return view('user.product',compact('data', 'contact','clients'));
+        return view('user.product',compact('data', 'contact','clients', 'rempah'));
     }
 
-    public function team(){
-        $data =Team::get();
+    public function gallery(){
+        $data = Gallery::get();
         $contact = Contact::get();
         $clients = Clients::get();
-        return view('user.team', compact('data','contact','clients'));
+        return view('user.gallery',compact('data', 'contact','clients'));
     }
 
     
