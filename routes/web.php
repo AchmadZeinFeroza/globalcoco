@@ -23,6 +23,7 @@ Route::get('/', 'WebsiteController@index');
 Route::get('/about', 'WebsiteController@about');
 Route::get('/product' , 'WebsiteController@product'); 
 Route::get('/contact' , 'WebsiteController@contact'); 
+Route::get('/gallery', 'WebsiteController@gallery');
 Route::get('/team' , 'WebsiteController@team'); 
 Route::get('/product/{id}' , 'WebsiteController@showproduct'); 
 
@@ -38,7 +39,6 @@ Route::group(['middleware' => ['auth']] , function(){
     Route::get('/abouthome', 'AboutController@home');
     Route::get('/service' , 'WebsiteController@service'); 
     Route::get('/benefit' , 'WebsiteController@benefit'); 
-    Route::get('/gallery', 'WebsiteController@gallery');
     Route::match(['post' , 'patch'],'/abouthome/update', 'AboutController@updatehome');
 Route::match(['post' , 'patch'],'/service/update/{service}', 'WebsiteController@updateservice');
 Route::match(['post' , 'patch'],'/benefit/update/{id}', 'WebsiteController@updatebenefit');
