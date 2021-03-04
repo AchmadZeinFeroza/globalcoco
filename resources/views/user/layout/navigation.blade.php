@@ -43,15 +43,9 @@
 						</a>
 					</li>
 					<li class="s-header__action-item">
-						<a class="s-header__action-link" href="tel:{{$item->phone}}">
+						<a class="s-header__action-link" href="tel:{{$item->twitter}}">
 							<i class="g-padding-r-5--xs ti-mobile"></i>
 							<span class="g-display-none--xs g-display-inline-block--sm">Phone</span>
-						</a>
-					</li>
-					<li class="s-header__action-item">
-						<a class="s-header__action-link" href="https://{{$item->twitter}}">
-							<i class="g-padding-r-5--xs ti-twitter"></i>
-							<span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
 						</a>
 					</li>
 				</ul>

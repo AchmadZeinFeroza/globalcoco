@@ -33,7 +33,7 @@
                                 <i class="g-display-block--xs g-font-size-40--xs g-color--white-opacity g-margin-b-30--xs ti-headphone-alt"></i>
                             </a>
                             <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Call at</h4>
-                            <p class="g-color--white-opacity">{{$item->phone}}</p>
+                            <p class="g-color--white-opacity">{{$item->phone}} / {{$item->twitter}}</p>
                         </div>
                     </div>
                     @endforeach

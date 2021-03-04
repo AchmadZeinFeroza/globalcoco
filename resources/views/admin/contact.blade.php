@@ -21,13 +21,13 @@
             @foreach ($data as $item)
             <form action="{{url('/contact/update')}}" method="POST">
                 @csrf @method('patch')
-                <div class="position-relative row form-group"><label for="phone" class="col-sm-2 col-form-label">Phone</label>
+                <div class="position-relative row form-group"><label for="phone" class="col-sm-2 col-form-label">Whatsapp</label>
                     <div class="col-sm-10"><input name="phone" id="phone" placeholder="Entry Phone" type="text" class="form-control" value="{{$item->phone}}"></div>
                 </div>
                 <div class="position-relative row form-group"><label for="address" class="col-sm-2 col-form-label">Address</label>
                     <div class="col-sm-10"><input name="address" id="address" placeholder="Entry Address" type="text" class="form-control" value="{{$item->address}}"></div>
                 </div>
-                <div class="position-relative row form-group"><label for="twitter" class="col-sm-2 col-form-label">Twitter</label>
+                <div class="position-relative row form-group"><label for="twitter" class="col-sm-2 col-form-label">Phone</label>
                     <div class="col-sm-10"><input name="twitter" id="twitter" placeholder="Entry Twitter" type="text" class="form-control" value="{{$item->twitter}}"></div>
                 </div>
                 <div class="position-relative row form-group"><label for="email" class="col-sm-2 col-form-label">Email</label>

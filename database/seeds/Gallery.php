@@ -23,8 +23,5 @@ class Gallery extends Seeder
         DB::table('gallery')->insert([
             'image' => '/storage/gallery/4.jpeg'           
         ]);
-        DB::table('gallery')->insert([
-            'image' => '/storage/gallery/5.jpg'           
-        ]);
     }
 }

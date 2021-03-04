@@ -28,15 +28,12 @@
                                                 <i class="g-font-size-30--xs g-color--white-opacity g-margin-b-30--xs g-padding-x-15--xs ti-email"></i>
                                             </a> 
                                             @endif 
-                                            @if ($item->phone !== null)
-                                            <a href="tel:{{$item->phone}}">
+                                            @if ($item->twitter !== null)
+                                            <a href="tel:{{$item->twitter}}">
                                                 <i class="g-font-size-30--xs g-color--white-opacity g-margin-b-30--xs g-padding-x-15--xs ti-mobile"></i>
                                             </a> 
                                             @endif 
-                                            @if ($item->twitter !== null)
-                                            <a href="https://{{$item->twitter}}">
-                                                <i class="g-font-size-30--xs g-color--white-opacity g-margin-b-30--xs g-padding-x-15--xs ti-twitter"></i>
-                                            </a> 
+                                            @if ($item->phone !== null)
                                             @endif 
                                         </div>
                                         @endforeach
