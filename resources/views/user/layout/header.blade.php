@@ -13,7 +13,7 @@
 
 		<!-- Web Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet" />
-
+		<link rel="icon" href="{{asset('megakit/img/logo.png')}}" sizes="16x16" type="image/png">
 		<!-- Vendor Styles -->
 		<link href="{{asset('megakit/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
 		<link href="{{asset('megakit/css/animate.css')}}" rel="stylesheet" type="text/css" />
@@ -69,8 +69,8 @@
 							<!-- Logo -->
 							<div class="s-header__logo">
 								<a href="index.html" class="s-header__logo-link">
-                                    <h2 class="g-color--primary g-font-size-24--xs" style="margin: 0">Global Coco</h2>
-                                    <h4 class="g-color--gray-light g-font-size-24--xs" style="margin: 0">INDONESIA</h4>
+									<img class="s-header__logo-img s-header__logo-img-default img-fluid" src="{{asset('megakit/img/logo.png')}}" width="60px" />
+									<img class="s-header__logo-img s-header__logo-img-shrink img-fluid" src="{{asset('megakit/img/logo.png')}}" width="60px" />
 									{{-- <img class="s-header__logo-img s-header__logo-img-default" src="{{asset('megakit/img/logo.png')}}" />
 									<img class="s-header__logo-img s-header__logo-img-shrink" src="{{asset('megakit/img/logo-dark.png')}}" /> --}}
 								</a>

@@ -15,10 +15,10 @@ class Gallery extends Seeder
             'image' => '/storage/gallery/1.jpeg'           
         ]);
         DB::table('gallery')->insert([
-            'image' => '/storage/gallery/2.png'           
+            'image' => '/storage/gallery/2.jpeg'           
         ]);
         DB::table('gallery')->insert([
-            'image' => '/storage/gallery/3.png'           
+            'image' => '/storage/gallery/3.jpeg'           
         ]);
         DB::table('gallery')->insert([
             'image' => '/storage/gallery/4.jpeg'           

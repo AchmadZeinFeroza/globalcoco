@@ -30,12 +30,12 @@ class Product extends Seeder
         DB::table('product')->insert([
             'title' => 'COPRA',
             'description' => 'Copra is the dried flesh of coconuts. Every adult coconut tree bears 50-75 nuts that can be harvested, split with machetes and left to dry in the sun. The copra is then scraped out of the husk and gets to dry further on racks. Finally, it is packed in jute bags and transported to a processing facility.',
-            'image' => '/storage/product/product1.png'           
+            'image' => '/storage/product/product1.jpeg'           
         ]);
         DB::table('product')->insert([
             'title' => 'COCONUT FIBER',
             'description' => 'Coconut fiber, is a natural fiber extracted from the husk of coconut[1] and used in products such as floor mats, doormats, brushes and mattresses. Coir is the fibrous material found between the hard, internal shell and the outer coat of a coconut. Other uses of brown coir (made from ripe coconut) are in upholstery padding, sacking and horticulture. White coir, harvested from unripe coconuts, is used for making finer brushes, string, rope and fishing net',
-            'image' => '/storage/product/product4.png'           
+            'image' => '/storage/product/product4.jpeg'           
         ]);
         DB::table('product')->insert([
             'title' => 'COPRA MEAL',
@@ -45,12 +45,12 @@ class Product extends Seeder
         DB::table('product')->insert([
             'title' => 'COCONUT PEAT BLOCKS',
             'description' => 'Cocopeat blocks are considered an ideal growing medium. The cocopeat powder thus obtained is sieved, washed, dried and finally compressed into blocks. The blocks can be used for a wide range of planting requirements. Coir is known for its natural rooting hormones and anti-fungal properties. We also ensure secure packaging of the cocopeat blocks.            ',
-            'image' => '/storage/product/product6.png'           
+            'image' => '/storage/product/product6.jpeg'           
         ]);
         DB::table('product')->insert([
             'title' => 'DESICCATED COCONUT',
             'description' => 'Desiccated Coconut is a grated, dried (3% moisture content max.), and unsweetened fresh meat or kernel of a mature fruit of coconut. Desiccated Coconuts are graded by its cutting size, for example, fine grade and medium grade where fine grade is smaller particle size than the medium grade.',
-            'image' => '/storage/product/product7.png'           
+            'image' => '/storage/product/product7.jpeg'           
         ]);
        
     }

@@ -12,10 +12,10 @@ class Rempah extends Seeder
     public function run()
     {
         DB::table('rempah')->insert([
-            'image' => '/storage/rempah/1.jpeg'           
+            'image' => '/storage/rempah/1.jpg'           
         ]);
         DB::table('rempah')->insert([
-            'image' => '/storage/rempah/2.jpeg'           
+            'image' => '/storage/rempah/2.jpg'           
         ]);
     }
 }
