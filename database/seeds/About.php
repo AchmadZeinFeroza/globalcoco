@@ -29,7 +29,7 @@ class About extends Seeder
         DB::table('about')->insert([
             'title' => 'PRODUCTION PLANT',
             'description' => 'We also have a processing plant for coconut derivatives with the latest technology and accompanied by workers who are experts in their fields. We continue to produce International quality products.',
-            'image' => '/storage/about/about4.jpg'           
+            'image' => '/storage/about/about4.jpeg'           
         ]);
         DB::table('about')->insert([
             'title' => 'CONTAINER LOGISTICS',
