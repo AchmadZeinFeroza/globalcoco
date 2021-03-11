@@ -67,7 +67,7 @@
 		<div class="col-md-12">
 			<div class="row g-overflow--hidden">
 				<h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs text-center g-padding-y-125--sm">Specifitcation</h2>
-				<img class="img-responsive g-width-100-percent--xs" src="{{asset('megakit/img/spesifikasi.png')}}" alt="Image" />
+				<img class="img-responsive g-width-100-percent--xs" src="{{asset('megakit/img/bg.png')}}" alt="Image" />
 		</div>
 
 		{{-- <div class="row">
