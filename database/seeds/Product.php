@@ -40,7 +40,7 @@ class Product extends Seeder
         DB::table('product')->insert([
             'title' => 'COPRA MEAL',
             'description' => 'Coconut meal or copra meal is produced from the ripe fruit (nut) of the coconut palm (Cocos nucifera). The nut is split and the kernel is removed and dried below 6% moisture. This meal is called copra meal and still contains the oil.',
-            'image' => '/storage/product/product5.jpg'           
+            'image' => '/storage/product/product5.jpeg'           
         ]);
         DB::table('product')->insert([
             'title' => 'COCONUT PEAT BLOCKS',
