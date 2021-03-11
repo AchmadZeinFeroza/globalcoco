@@ -34,12 +34,12 @@ Route::get('/product/{id}' , 'WebsiteController@showproduct');
 */
 Auth::routes();
 Route::group(['middleware' => ['auth']] , function(){
-    // Home
-    Route::resource('thumbnail', 'ThumbnailController');
-    Route::get('/abouthome', 'AboutController@home');
-    Route::get('/service' , 'WebsiteController@service'); 
-    Route::get('/benefit' , 'WebsiteController@benefit'); 
-    Route::match(['post' , 'patch'],'/abouthome/update', 'AboutController@updatehome');
+// Home
+Route::resource('thumbnail', 'ThumbnailController');
+Route::get('/abouthome', 'AboutController@home');
+Route::get('/service' , 'WebsiteController@service'); 
+Route::get('/benefit' , 'WebsiteController@benefit'); 
+Route::match(['post' , 'patch'],'/abouthome/update', 'AboutController@updatehome');
 Route::match(['post' , 'patch'],'/service/update/{service}', 'WebsiteController@updateservice');
 Route::match(['post' , 'patch'],'/benefit/update/{id}', 'WebsiteController@updatebenefit');
 
@@ -78,6 +78,11 @@ Route::match(['post' , 'patch'],'/clients/update/{clients}', 'WebsiteController@
 Route::get('/galleryadmin', 'ThumbnailController@galleryadmin');
 Route::post('/galleryadmin/creategallery    ', 'ProductController@createGallery');
 Route::delete('/galleryadmin/delete/{id}', 'ProductController@delete');
+
+//User
+Route::get('/user', 'UserController@index');
+Route::match(['post' , 'patch'],'/user/update/{id}', 'UserController@update');
+
 //Logout
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
 });

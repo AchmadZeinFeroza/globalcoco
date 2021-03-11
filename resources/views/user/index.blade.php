@@ -265,7 +265,7 @@
 			<div class="row">
 				@php $j=1; @endphp
 				@foreach ($benefit as $item)
-				<div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md wow fadeInUp" data-wow-duration=".3" data-wow-delay=".{{$j}}s">
+				<div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md wow fadeInUp" data-wow-duration=".3" data-wow-delay=".{{$j}}s">
 					<!-- News -->
 					<article>
 						<img class="img-responsive " src="{{asset($item->image)}}" alt="Image" />
@@ -321,5 +321,4 @@
 			</div>
 		</div>
 		<!-- End Testimonials -->
-		<br><br>
         @endsection

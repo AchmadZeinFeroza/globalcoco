@@ -48,7 +48,6 @@
         </div>     
         </div>
        </div>
-       <br><br>
 @endsection
 @section('script')
 <script type="text/javascript" src="{{asset('megakit/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js')}}"></script>

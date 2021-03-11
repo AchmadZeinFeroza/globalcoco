@@ -77,6 +77,12 @@
                 </a>
             </li>
             <li>
+                <a href="{{url('/user')}}">
+                    <i class="metismenu-icon pe-7s-look"></i>
+                    User
+                </a>
+            </li>
+            <li>
                 <a href="{{url('/logout')}}">
                     <i class="metismenu-icon pe-7s-back-2"></i>
                     Logout
