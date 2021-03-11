@@ -1,10 +1,13 @@
 
 		<!-- Back To Top -->
+		
 		<a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
 		<div class="icon">
+			@foreach ($contact as $item)
 			<a href="https://wa.me/{{$item->phone}}">
 				<img class="img-fluid wow pulse"  data-wow-iteration="infinite" data-wow-duration="1s" src="{{asset('megakit/img/whatsapp.png')}}" alt="" width="50px">
 			</a> 
+			@endforeach
 		</div>
 			
 		<!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
