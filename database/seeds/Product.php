@@ -14,7 +14,7 @@ class Product extends Seeder
        
         DB::table('product')->insert([
             'title' => 'COCONUT BRIQUETTE CHARCOAL',
-            'description' => 'Coconut Charcoal Briquette is a compact block charcoal which made from coconut shell charcoal. Our charcoal briquette is made of granular coconut shell charcoal that is crushed charcoal and moulded using a natural binder. As fuel, it is hotter and last longer than ordinary charcoal. It is suitable for household use both indoor and outdoor. Also, it can be used in food industries, for barbecue, stove fuel, metallurgy, etc.',
+            'description' => '100 %Coconut Shell Charcoal Briquettes Cube Shape for Shisa (Diamond ) Eropean Standar Quality. Mix Coconut Charcoal 95 % & 5 % Wood Cube Shape for Shisa ( Gold ). Mix Coconut Charcoal & Sawdust Briquettes Pillow Shape for Barberque',
             'image' => '/storage/product/6.jpeg'           
         ]);
         DB::table('product')->insert([
