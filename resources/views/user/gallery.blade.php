@@ -6,7 +6,7 @@
                 <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">
                     Gallery
                 </p>
-                <h1 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white g-letter-spacing--1">GLOBAL COCO</h1>
+                <h1 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white g-letter-spacing--1">GLOBAL COCO <br> INDONESIA</h1>
             </div>
         </div>
         <div id="js__scroll-to-section" class="container g-padding-y-80--xs ">
