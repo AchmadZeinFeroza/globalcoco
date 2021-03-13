@@ -13,7 +13,7 @@ class BenefitHome extends Seeder
     {
         DB::table('benefit')->insert([
             'title' => 'Investor Relations',
-            'description' => 'Global Coco Indonesia has developed a strategy to grow and sustain its successful global business. We take advantage of opportunities where the resources we work on are huge in Indonesia. We believe Universal Coco Indonesia has a very good position to take advantage of these things.',
+            'description' => 'Global Coco Indonesia has developed a strategy to grow and sustain its successful global business. We take advantage of opportunities where the resources we work on are huge in Indonesia. We believe Global Coco Indonesia has a very good position to take advantage of these things.',
             'image' => '/storage/home/benefit1.jpg'           
         ]);
         DB::table('benefit')->insert([

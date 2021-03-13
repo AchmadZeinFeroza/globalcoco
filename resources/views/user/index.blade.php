@@ -65,7 +65,7 @@
 							</div>
 							<div class="col-sm-4 col-sm-pull-8">
 								<div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
-									<a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
+									<a class="js__popup__youtube" href="{{$item->yt}}" title="Intro Video">
 										<i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
 										<span class="text-uppercase g-font-size-13--xs g-color--white g-padding-x-15--xs">Watch the Overview</span>
 									</a>
@@ -99,7 +99,7 @@
 							</div>
 							<div class="col-sm-4 col-sm-pull-8">
 								<div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
-									<a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
+									<a class="js__popup__youtube" href="{{$item->yt}}" title="Intro Video">
 										<i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
 										<span class="text-uppercase g-font-size-13--xs g-color--white g-padding-x-15--xs">Watch the Overview</span>
 									</a>
@@ -133,7 +133,7 @@
 							</div>
 							<div class="col-sm-4 col-sm-pull-8">
 								<div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
-									<a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
+									<a class="js__popup__youtube" href="{{$item->yt}}" title="Intro Video">
 										<i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
 										<span class="text-uppercase g-font-size-13--xs g-color--white g-padding-x-15--xs">Watch the Overview</span>
 									</a>
