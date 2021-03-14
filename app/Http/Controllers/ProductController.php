@@ -44,6 +44,7 @@ class ProductController extends Controller
             $path = $request->file('image')->storeAs('product', Str::random(8).$imagePath->getClientOriginalName() , 'public');
             $data->image = '/storage/'.$path;
         }
+        dd($data->image);
         $data->save();
         return back()->with('success','Product Berhasil Ditambah');
     }
