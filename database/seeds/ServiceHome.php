@@ -25,7 +25,7 @@ class ServiceHome extends Seeder
         ]);
         DB::table('service')->insert([
             'title' => 'INNOVATION',
-            'description' => 'Innovation means inventing, designing, developing  products and services that have high appeal in the marketplace and strengthen customer preference for the Universal Coco Indonesia project.'
+            'description' => 'Innovation means inventing, designing, developing  products and services that have high appeal in the marketplace and strengthen customer preference for the Global Coco Indonesia project.'
         ]);
     }
 }
