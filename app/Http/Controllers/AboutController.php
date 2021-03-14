@@ -24,7 +24,7 @@ class AboutController extends Controller
             $imagePath = $request->file('image');
             $path = $request->file('image')->storeAs('home', Str::random(8).$imagePath->getClientOriginalName() , 'public');
             $str = str_replace('/storage', '', $data->image);
-            unlink(storage_path('app\public'.str_replace('/', '\\', $str)));
+            unlink(storage_path('app/public'.$str));
             $data->image = '/storage/'.$path;
         }else{
             $data->image = $data->image;
@@ -40,7 +40,7 @@ class AboutController extends Controller
             $imagePath = $request->file('image');
             $path = $request->file('image')->storeAs('about', Str::random(8).$imagePath->getClientOriginalName() , 'public');
             $str = str_replace('/storage', '', $data->image);
-            unlink(storage_path('app\public'.str_replace('/', '\\', $str)));
+            unlink(storage_path('app/public'.$str));
             $data->image = '/storage/'.$path;
         }else{
             $data->image = $data->image;

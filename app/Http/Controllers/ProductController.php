@@ -56,7 +56,7 @@ class ProductController extends Controller
             $imagePath = $request->file('image');
             $path = $request->file('image')->storeAs('product', Str::random(8).$imagePath->getClientOriginalName() , 'public');
             $str = str_replace('/storage', '', $data->image);
-            unlink(storage_path('app\public'.str_replace('/', '\\', $str)));
+            unlink(storage_path('app/public'.$str));
             $data->image = '/storage/'.$path;
         }else{
             $data->image = $data->image;
@@ -68,7 +68,7 @@ class ProductController extends Controller
     public function destroy($id){
         $data = Product::find($id);
         $str = str_replace('/storage', '', $data->image);
-        unlink(storage_path('app\public'.str_replace('/', '\\', $str)));
+        unlink(storage_path('app/public'.$str));
         $data->delete();
         return back()->with('success','Product Berhasil Dihapus');
     }
@@ -95,7 +95,7 @@ class ProductController extends Controller
     public function deleterempah($id){
         $data = Rempah::find($id);
         $str = str_replace('/storage', '', $data->image);
-        unlink(storage_path('app\public'.str_replace('/', '\\', $str)));
+        unlink(storage_path('app/public'.$str));
         $data->delete();
         return back()->with('success','Gambar Berhasil Dihapus');
     }
