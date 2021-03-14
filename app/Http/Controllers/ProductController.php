@@ -44,7 +44,6 @@ class ProductController extends Controller
             $path = $request->file('image')->storeAs('product', Str::random(8).$imagePath->getClientOriginalName() , 'public');
             $data->image = '/storage/'.$path;
         }
-        dd($data->image);
         $data->save();
         return back()->with('success','Product Berhasil Ditambah');
     }
@@ -89,7 +88,7 @@ class ProductController extends Controller
     public function delete($id){
         $data = Gallery::find($id);
         $str = str_replace('/storage', '', $data->image);
-        unlink(storage_path('app\public'.str_replace('/', '\\', $str)));
+        unlink(storage_path('app/public'.$str));
         $data->delete();
         return back()->with('success','Gambar Berhasil Dihapus');
     }
