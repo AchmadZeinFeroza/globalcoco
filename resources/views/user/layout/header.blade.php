@@ -7,9 +7,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 		<title>GLOBAL COCO INDONESIA</title>
-		<meta name="keywords" content="HTML5 Theme" />
-		<meta name="base-url" content="https://arjasa.desa.id">
-
 		<!-- SEO Management-->
 		<meta name="author" content="Global Coco Indonesia">
 		<meta name="keywords" content="global coco indonesia,global coco,coco,perusahaan kelapa,kelapa indoensia,pabrik kelapa,kelapa jember,pusat kelapa jember,jual kelapa,web global coco, website global coco, website global coco indonesia">
