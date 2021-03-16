@@ -8,8 +8,11 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 		<title>GLOBAL COCO INDONESIA</title>
 		<meta name="keywords" content="HTML5 Theme" />
-		<meta name="description" content="Megakit - HTML5 Theme" />
-		<meta name="author" content="keenthemes.com" />
+		<meta name="base-url" content="https://arjasa.desa.id">
+
+		<!-- SEO Management-->
+		<meta name="author" content="Global Coco Indonesia">
+		<meta name="keywords" content="global coco indonesia,global coco,coco,perusahaan kelapa,kelapa indoensia,pabrik kelapa,kelapa jember,pusat kelapa jember,jual kelapa,web global coco, website global coco, website global coco indonesia">
 
 		<!-- Web Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet" />
